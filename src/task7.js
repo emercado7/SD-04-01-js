@@ -6,6 +6,17 @@ const arr = [
   
   // Type your code below this line!
   
+  // se puede agregar un elemento a una fila existente
+  arr[0].push("Valor agregado en primera fila")
+
+  // se puede agregar una fila completa de elementos
+  arr.splice(1,0,["Esta", "es", "una", "nueva", "fila"])
+
+  // se puede eliminar un solo número de una fila específica
+  arr[2].pop() // eliminando el 19 de la fila con índice 2
   
-  
+  // Se puede invertir una fila sin afectar las demás
+  arr[3].reverse()
+
+  console.log(arr)
   // Type your code above this line!
